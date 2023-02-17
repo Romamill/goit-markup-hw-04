@@ -258,8 +258,6 @@ img {
   background-color: var(--color-ocean);
 }
 .socials-icon {
-  width: 16px;
-  height: 16px;
   fill: var(--color-light);
 }
 
@@ -291,8 +289,6 @@ img {
   outline-color: var(--color-ocean);
 }
 .customers-icon {
-  width: 104px;
-  height: 56px;
 }
 
 /* Footer */
@@ -357,8 +353,6 @@ footer {
   background-color: var(--color-green);
 }
 .footer-icon {
-  width: 24px;
-  height: 24px;
   fill: var(--color-secondary);
 }
 
@@ -387,7 +381,6 @@ footer {
 }
 .menu-item {
   flex-basis: calc((100% - 2 * 24px) / 3);
-  
 }
 .menu-list {
   padding-top: 32px;
@@ -398,7 +391,7 @@ footer {
   border-bottom: 1px solid var(--color-accent);
 }
 .menu-list:hover {
-border: 1px solid #f4f4fd;
+  border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
